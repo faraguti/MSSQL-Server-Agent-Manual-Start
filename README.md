@@ -14,18 +14,18 @@ First, check the status of your container and retrieve its name by running the f
 ```
 docker ps -a
 ```
-- This command lists all containers, including stopped ones.
-- The `-a` flag ensures visibility of stopped containers as well.
-> [!NOTE]  
-> **Write down the container name for the next steps.**
-
-<img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/5a9a622d-85b3-415a-a3d2-f1bd2557341b" height="90%" width="90%">
+  - This command lists all containers, including stopped ones.
+  - The `-a` flag ensures visibility of stopped containers as well.
+  > [!NOTE]  
+  > **Write down the container name for the next steps.**
+  
+  <img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/5a9a622d-85b3-415a-a3d2-f1bd2557341b" height="90%" width="90%">
 
 
 <br></br>
 ### Step 2: Connect to the Container
 
-Now, connect to the container using the root account with this command:
+When you run the command below, it allows you to enter an interactive terminal session within the specified Docker container as the root user, which can be useful for performing administrative tasks or making changes within the container. Connect to the container using the root account with this command:
 ```
 docker exec -it -u root <container-name> bash
 ```
@@ -37,3 +37,5 @@ docker exec -it -u root <container-name> bash
 - `-u root`: This flag specifies that the command should be executed as the "root" user inside the container.
 - `<container-name>`: This is a placeholder for the actual name of the Docker container you want to connect to.
 - `bash`: This is the command that will be executed within the container, which opens an interactive shell (the Bash shell in this case).
+- 
+<img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/d685eb8d-8172-470f-9782-b7a637e6d9b4" height="90%" width="90%">
