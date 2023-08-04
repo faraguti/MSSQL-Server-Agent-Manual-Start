@@ -49,4 +49,5 @@ Within the container, start the SQL Server Agent manually with this command:
 ```
   > [!NOTE]  
   > **After executing this command, ignore any recommendations shown on the screen (e.g., "Please run systemctl...").**
+  > 
   > **Simply type `exit` to return to the main terminal.**
