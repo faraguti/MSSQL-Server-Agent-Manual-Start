@@ -11,5 +11,5 @@ docker ps -a
 ```
 - This command lists all containers, including stopped ones.
 - The -a flag ensures visibility of stopped containers as well.
-  > [!NOTE]  
-  > **Write down the container name for the next steps.**
+> [!NOTE]  
+> **Write down the container name for the next steps.**
