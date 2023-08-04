@@ -7,7 +7,7 @@
 
 Follow these steps to manually start the SQL Server Agent within a Docker container.
 
-### Step 1: Check Container Status
+## Step 1: Check Container Status
 
 First, check the status of your container and retrieve its name by running the following command:
 
@@ -23,7 +23,7 @@ docker ps -a
 
 
 <br></br>
-### Step 2: Connect to the Container
+## Step 2: Connect to the Container
 
 When you run the command below, it allows you to enter an interactive terminal session within the specified Docker container as the root user, which can be useful for performing administrative tasks or making changes within the container. Connect to the container using the root account with this command:
 ```
@@ -41,7 +41,7 @@ docker exec -it -u root <container-name> bash
 <img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/d685eb8d-8172-470f-9782-b7a637e6d9b4" height="90%" width="90%">
 
 <br></br>
-### Step 3: Start SQL Server Agent
+## Step 3: Start SQL Server Agent
 
 Within the container, start the SQL Server Agent manually with this command:
 ```
@@ -55,7 +55,7 @@ Within the container, start the SQL Server Agent manually with this command:
 
 
 <br></br>
-### Step 4: Restart the Container
+## Step 4: Restart the Container
 
 Once the above steps are completed, restart the container to apply the changes:
 ```
@@ -68,7 +68,7 @@ docker restart <container-name>
 
 
 <br></br>
-### Step 5: Before / After
+## Step 5: Before / After
 
 - **Before**:
   </br>
