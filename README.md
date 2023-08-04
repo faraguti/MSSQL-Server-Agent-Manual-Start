@@ -78,6 +78,7 @@ docker restart <container-name>
   </br>
   <img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/f71bb1fa-8f51-4536-aa7f-34e4c5c7b2f1" height="30%" width="30%">
 
-Remember, in the containerized version of SQL Server, only jobs within SQL Server Agent are supported as maintenance plans are unavailable.
+> [!IMPORTANT]  
+> Remember, in the containerized version of SQL Server, only jobs within SQL Server Agent are supported as maintenance plans are unavailable.
 
-Enjoy harnessing the power of SQL Server Agent in your Docker environment!
+**Enjoy harnessing the power of SQL Server Agent in your Docker environment!**
