@@ -39,3 +39,14 @@ docker exec -it -u root <container-name> bash
 - `bash`: This is the command that will be executed within the container, which opens an interactive shell (the Bash shell in this case).
 - 
 <img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/d685eb8d-8172-470f-9782-b7a637e6d9b4" height="90%" width="90%">
+
+<br></br>
+### Step 3: Start SQL Server Agent
+
+Within the container, start the SQL Server Agent manually with this command:
+```
+/opt/mssql/bin/mssql-conf set sqlagent.enabled true
+```
+  > [!NOTE]  
+  > **After executing this command, ignore any recommendations shown on the screen (e.g., "Please run systemctl...").**
+  > **Simply type `exit` to return to the main terminal.**
