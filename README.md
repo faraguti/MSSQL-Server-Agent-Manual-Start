@@ -52,3 +52,22 @@ Within the container, start the SQL Server Agent manually with this command:
   > 
   > **Simply type `exit` to return to the main terminal.**
   <img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/338c8154-0951-4ed6-b7c4-4aa3f4aecfc1" height="90%" width="90%">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+before: ![image](https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/55b6d5ca-e3cf-4ede-97fe-1fe35c71061a)
