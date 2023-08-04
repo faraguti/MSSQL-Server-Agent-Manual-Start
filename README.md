@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/9b48569c-5d5c-4c6c-92f4-20816af030e8" height="100%" width="200%">
+  <img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/6cd92d74-4e1a-4331-9b07-78391b69ac3c" height="100%" width="200%">
 </p>
+
 
 ## How to Manually Start SQL Server Agent in a MSSQL Docker Container
 
