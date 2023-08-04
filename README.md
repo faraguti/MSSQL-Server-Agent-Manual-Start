@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/6cd92d74-4e1a-4331-9b07-78391b69ac3c" height="100%" width="200%">
+  <img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/6cd92d74-4e1a-4331-9b07-78391b69ac3c" height="100%" width="100%">
 </p>
 
 
@@ -15,9 +15,15 @@ First, check the status of your container and retrieve its name by running the f
 docker ps -a
 ```
 - This command lists all containers, including stopped ones.
-- The -a flag ensures visibility of stopped containers as well.
+- The `-a` flag ensures visibility of stopped containers as well.
 > [!NOTE]  
 > **Write down the container name for the next steps.**
+> 
+<br></br>
+<img src="https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/5a9a622d-85b3-415a-a3d2-f1bd2557341b" height="90%" width="90%">
+
+![image]()
+
 
 <br></br>
 ### Step 2: Connect to the Container
