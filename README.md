@@ -4,8 +4,12 @@ Follow these steps to manually start the SQL Server Agent within a Docker contai
 
 ### Step 1: Check Container Status
 
-To determine if the container is running and obtain its name, run the following command:
+First, check the status of your container and retrieve its name by running the following command:
 
 ```
 docker ps -a
 ```
+- This command lists all containers, including stopped ones.
+- The -a flag ensures visibility of stopped containers as well.
+> [!NOTE]  
+> **Write down the container name for the next steps.**
