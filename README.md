@@ -83,3 +83,5 @@ Enjoy harnessing the power of SQL Server Agent in your Docker environment!
 
 
 before: ![image](https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/55b6d5ca-e3cf-4ede-97fe-1fe35c71061a)
+after: ![image](https://github.com/faraguti/MSSQL-Server-Agent-Manual-Start/assets/5418256/f71bb1fa-8f51-4536-aa7f-34e4c5c7b2f1)
+
