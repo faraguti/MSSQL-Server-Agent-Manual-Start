@@ -18,3 +18,19 @@ docker ps -a
 - The -a flag ensures visibility of stopped containers as well.
 > [!NOTE]  
 > **Write down the container name for the next steps.**
+
+<br></br>
+### Step 2: Connect to the Container
+
+Now, connect to the container using the root account with this command:
+```
+docker exec -it -u root <container-name> bash
+```
+> [!IMPORTANT]
+> **Breakdown of each part of the command:**
+    
+- `docker exec`: This is the command used to execute a command inside a running container.
+- `-it`: These flags indicate that the session should be interactive and allocate a pseudo-TTY (terminal).
+- `-u root`: This flag specifies that the command should be executed as the "root" user inside the container.
+- `<container-name>`: This is a placeholder for the actual name of the Docker container you want to connect to.
+- `bash`: This is the command that will be executed within the container, which opens an interactive shell (the Bash shell in this case).
